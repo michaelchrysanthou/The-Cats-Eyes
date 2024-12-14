@@ -1,0 +1,102 @@
+/* Page Styling */
+
+body {
+   
+    
+    background: url(images/cat5.jpg) no-repeat;
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  
+  
+  }
+  
+  .title{
+  
+    text-align: top;
+  }
+  
+  h1{
+  
+    font-family: 'East Sea Dokdo', cursive;
+    text-align: center;
+    font-size: 100px;
+  }
+  
+  /* Eyes Styling */
+  
+  /* size of the eye */
+  
+  .eye-right {
+    width: 35px;
+    height: 26px;
+    background: #ffffff00;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  /* position on page */
+  
+  .eyes-right {
+    position: fixed;
+    top: 33%;
+    transform: translateY(-50%);
+    width: 2340px;
+    text-align: center;
+  }
+  
+  /* eye ball size */
+  
+  .ball-right {
+    width: 17px;
+    height: 17px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+  
+    /* size of the eye */
+  
+    .eye-left{
+  
+      width: 28px;
+      height: 20px;
+      background: #f5e9bb00;
+      display: inline-block;
+      margin: 40px;
+      border-radius: 50%;
+      position: relative;
+      overflow: hidden;
+  
+    }
+  
+      /* position on page */
+  
+      
+  .eyes-left{
+  
+    position: fixed;
+    top: 33.3%;
+    transform: translateY(-50%);
+    width: 2120px;
+    text-align: center;
+  
+  }
+  
+  .ball-left{
+  
+  width: 15px;
+  height: 15px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  
+  }
